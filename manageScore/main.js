@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ClassScore_1 = require("./ClassScore");
+var classScore = new ClassScore_1.ClassScore();
+classScore.insertFirst('Thinh', 9);
+classScore.insertLast('Thanh', 8);
+classScore.insertFirst('Phu', 10);
+classScore.insertFirst('Hai', 4);
+classScore.showList();
+classScore.findByName('nh');
