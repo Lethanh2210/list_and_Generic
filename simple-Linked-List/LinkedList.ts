@@ -47,7 +47,7 @@ export class LinkedList<T>{
         let value = this.head;
         while (value !== null){
             console.log(value.data);
-            value = value.next
+            value = value.next;
         }
     }
 }
